@@ -24,11 +24,11 @@ namespace MicrophoneSelectFix
             // Thanks @SDraw for the tip.
             public static bool Prefix()
             {
-                List<UiKeyValue> list = new List<UiKeyValue>
+                var list = new List<UiKeyValue>
                 {
                     new UiKeyValue { value = "Default" }
                 };
-                foreach (string text in Microphone.devices)
+                foreach (var text in Microphone.devices)
                 {
                     list.Add(new UiKeyValue
                     {
