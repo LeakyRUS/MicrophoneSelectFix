@@ -24,7 +24,7 @@ namespace MicrophoneSelectFix
             // Thanks @SDraw for the tip.
             public static bool Prefix()
             {
-                List<UiKeyValue> list = new List<UiKeyValue>()
+                List<UiKeyValue> list = new List<UiKeyValue>
                 {
                     new UiKeyValue { value = "Default" }
                 };
