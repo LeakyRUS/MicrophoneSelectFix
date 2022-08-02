@@ -3,10 +3,10 @@
 using MelonLoader;
 using HarmonyLib;
 
+using ABI_RC.Core;
 using ABI_RC.Core.Base;
 using ABI_RC.Core.InteractionSystem;
 using UnityEngine;
-using ABI_RC.Core;
 
 namespace MicrophoneSelectFix
 {
